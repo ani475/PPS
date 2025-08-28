@@ -1,0 +1,30 @@
+// PROGRAM TO CHECK GREATEST BETWEEN TWO NUMBERS.
+
+
+#include <stdio.h>
+
+int main() 
+{
+    int num1; int num2;                  //variable declaration
+    printf("ENTER FIRST NUMBER\n");        
+    scanf("%d", &num1);                  //storing values
+    printf("ENTER SECOND NUMBER\n");      
+    scanf("%d", &num2);                  //storing values  
+    if(num1>num2)                        //checking the conditions
+    printf("%d is GREATER", num1);
+    else
+    printf("%d is GREATER", num2);
+    return 0;
+}
+
+
+/*
+OUTPUT :
+
+ENTER FIRST NUMBER
+87
+ENTER SECOND NUMBER
+25
+87 is GREATER
+=== Code Execution Successful ===
+*/
