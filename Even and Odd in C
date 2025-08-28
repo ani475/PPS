@@ -1,0 +1,24 @@
+// PROGRAM TO CHECK THE NUMBER IS EVEN OR ODD IN C.
+
+#include <stdio.h>
+int main() 
+{
+    int num;
+    printf("ENTER A NUMBER\n");
+    scanf("%d", &num);  //taking input in variable.  
+    if(num%2==0)
+    printf("THE NUMBER IS EVEN");  //printing the even number.
+    else
+    printf("THE NUMBER IS ODD");   //printing the even number.
+    return 0;
+}
+
+
+/*
+OUTPUT
+
+ENTER A NUMBER
+5
+THE NUMBER IS ODD
+=== Code Execution Successful ===
+*/
